@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="632.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.project.rateController">
+   <children>
+      <Button fx:id="menu" layoutX="726.0" layoutY="-1.0" mnemonicParsing="false" onAction="#initiliaze" prefHeight="30.0" prefWidth="74.0" text="Menu" />
+      <ChoiceBox fx:id="rate" layoutX="258.0" layoutY="86.0" prefHeight="24.0" prefWidth="368.0" />
+      <Label fx:id="rateLabel" layoutX="526.0" layoutY="39.0" prefHeight="19.0" prefWidth="54.0" text="!">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="reviewLabel" alignment="CENTER" layoutX="306.0" layoutY="141.0" prefHeight="16.0" prefWidth="272.0" text="Write your review here.">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" />
+      <Label fx:id="complainLabel" alignment="CENTER" layoutX="394.0" layoutY="581.0" onMouseClicked="#initiliaze" prefHeight="18.0" prefWidth="132.0" style="-fx-underline: true;" text="Complain" textFill="#fa0707">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Label>
+      <AnchorPane prefHeight="632.0" prefWidth="163.0" style="-fx-background-color: green;" />
+      <Button fx:id="submit" layoutX="413.0" layoutY="365.0" mnemonicParsing="false" onAction="#initiliaze" prefHeight="36.0" prefWidth="95.0" text="Submit" />
+      <Label layoutX="365.0" layoutY="39.0" prefHeight="25.0" prefWidth="192.0" text="Rate us 1-10:">
+         <font>
+            <Font size="20.0" />
+         </font></Label>
+      <TextField fx:id="review" alignment="TOP_LEFT" layoutX="233.0" layoutY="190.0" prefHeight="158.0" prefWidth="487.0" />
+      <Label fx:id="ratingofApp" alignment="TOP_LEFT" layoutX="342.0" layoutY="445.0" onMouseClicked="#initiliaze" onMouseDragEntered="#initiliaze" prefHeight="96.0" prefWidth="368.0" text="Rating">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="80.0" fitWidth="82.0" layoutX="224.0" layoutY="436.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@золотая-звезда-с-текстурой-яркого-блеска-изолированная-на-белой-135772527.jpg" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

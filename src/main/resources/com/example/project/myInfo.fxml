@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="edit" prefHeight="632.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.project.myInfoController">
+   <children>
+      <Label fx:id="name" contentDisplay="CENTER" layoutX="180.0" layoutY="231.0" prefHeight="28.0" prefWidth="465.0" text="Name:">
+         <font>
+            <Font size="21.0" />
+         </font></Label>
+      <Label fx:id="login" layoutX="180.0" layoutY="461.0" prefHeight="26.0" prefWidth="456.0" text="Login:">
+         <font>
+            <Font size="21.0" />
+         </font></Label>
+      <Label fx:id="password" layoutX="180.0" layoutY="333.0" prefHeight="26.0" prefWidth="540.0" text="Password:">
+         <font>
+            <Font size="21.0" />
+         </font></Label>
+      <Label fx:id="tariff" layoutX="180.0" layoutY="395.0" prefHeight="26.0" prefWidth="456.0" text="Tariff:">
+         <font>
+            <Font size="21.0" />
+         </font></Label>
+      <Label fx:id="number" layoutX="177.0" layoutY="279.0" prefHeight="26.0" prefWidth="634.0" text="Number:">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Label>
+      <Button fx:id="getInfo" layoutX="409.0" layoutY="567.0" mnemonicParsing="false" onAction="#initiliaze" prefHeight="37.0" prefWidth="71.0" style="-fx-background-color: gray;" text="GET" />
+      <Button fx:id="toMenu" layoutX="706.0" layoutY="14.0" mnemonicParsing="false" onAction="#initiliaze" prefHeight="43.0" prefWidth="91.0" style="-fx-background-color: gray;" text="Menu" />
+      <AnchorPane layoutX="-20.0" layoutY="-2.0" prefHeight="640.0" prefWidth="188.0" style="-fx-background-color: green;" />
+      <ImageView fitHeight="199.0" fitWidth="372.0" layoutX="180.0" layoutY="7.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@profile.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="change" layoutX="672.0" layoutY="227.0" mnemonicParsing="false" onAction="#initiliaze" prefHeight="37.0" prefWidth="97.0" style="-fx-background-color: grey;" text="Edit" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,24 @@
+<component name="libraryTable">
+  <library name="Downloads">
+    <CLASSES>
+      <root url="file://$USER_HOME$/Downloads" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://$USER_HOME$/Downloads/Telegram Desktop" />
+      <root url="file://$USER_HOME$/Downloads" />
+      <root url="jar://$USER_HOME$/Downloads/mysql-connector-java-8.0.27.zip!/mysql-connector-java-8.0.27/src/build/java" />
+      <root url="jar://$USER_HOME$/Downloads/mysql-connector-java-8.0.27.zip!/mysql-connector-java-8.0.27/src/demo/java" />
+      <root url="jar://$USER_HOME$/Downloads/mysql-connector-java-8.0.27.zip!/mysql-connector-java-8.0.27/src/generated/java" />
+      <root url="jar://$USER_HOME$/Downloads/mysql-connector-java-8.0.27.zip!/mysql-connector-java-8.0.27/src/legacy/java" />
+      <root url="jar://$USER_HOME$/Downloads/mysql-connector-java-8.0.27.zip!/mysql-connector-java-8.0.27/src/main/core-api/java" />
+      <root url="jar://$USER_HOME$/Downloads/mysql-connector-java-8.0.27.zip!/mysql-connector-java-8.0.27/src/main/core-impl/java" />
+      <root url="jar://$USER_HOME$/Downloads/mysql-connector-java-8.0.27.zip!/mysql-connector-java-8.0.27/src/main/protocol-impl/java" />
+      <root url="jar://$USER_HOME$/Downloads/mysql-connector-java-8.0.27.zip!/mysql-connector-java-8.0.27/src/main/user-api/java" />
+      <root url="jar://$USER_HOME$/Downloads/mysql-connector-java-8.0.27.zip!/mysql-connector-java-8.0.27/src/main/user-impl/java" />
+      <root url="jar://$USER_HOME$/Downloads/mysql-connector-java-8.0.27.zip!/mysql-connector-java-8.0.27/src/test/java" />
+    </SOURCES>
+    <jarDirectory url="file://$USER_HOME$/Downloads" recursive="false" />
+    <jarDirectory url="file://$USER_HOME$/Downloads" recursive="false" type="SOURCES" />
+  </library>
+</component>

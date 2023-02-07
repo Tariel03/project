@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="632.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.project.chooseTariffController">
+   <children>
+      <ChoiceBox fx:id="tariffs" layoutX="142.0" layoutY="172.0" prefHeight="24.0" prefWidth="486.0" />
+      <Label fx:id="nameofTariff" alignment="CENTER" layoutX="188.0" layoutY="45.0" prefHeight="60.0" prefWidth="424.0" text="Choose a tariff">
+         <font>
+            <Font size="36.0" />
+         </font></Label>
+      <Button fx:id="toMenu" layoutX="343.0" layoutY="576.0" mnemonicParsing="false" onAction="#initiliazed" prefHeight="34.0" prefWidth="114.0" text="back" />
+      <ImageView fitHeight="270.0" fitWidth="282.0" layoutX="255.0" layoutY="250.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@choice1.jpg" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
